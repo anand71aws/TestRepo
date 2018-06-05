@@ -1,0 +1,17 @@
+applications:
+- name: entmon-service
+  memory: 256M
+  stackato:
+    env:
+        HTTP_PROXY:
+          default: http://proxy.houston.hpecorp.net:8080
+        HTTPS_PROXY:
+          default: http://proxy.houston.hpecorp.net:8080
+        http_proxy:
+          default: http://proxy.houston.hpecorp.net:8080
+        https_proxy:
+          default: http://proxy.houston.hpecorp.net:8080
+        no_proxy:
+          default: /var/run/docker.sock,localaddress,localhost,hpe.com,hpecorp.net,127.0.0.1,10.0.0.0/16,172.0.0.0/16
+    ignores : ["node_modules", "tmp" , ".git"]
+    domain: stackato.g4ihos.itcs.hpecorp.net

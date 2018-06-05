@@ -1,0 +1,9 @@
+{
+  "name": "workflow-user-mapping",
+  "version": "1.0.0",
+  "description": "",
+  "main": "workflow-user-mapping.js",
+  "author": "ryan.bonomo@hpe.com",
+  "addison-template": "0.16.2",
+  "license": "MIT"
+}

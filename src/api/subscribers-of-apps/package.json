@@ -1,0 +1,9 @@
+{
+  "name": "subscribers-of-apps",
+  "version": "1.0.0",
+  "description": "",
+  "main": "subscribers-of-apps.js",
+  "author": "ryan.bonomo@hpe.com",
+  "addison-template": "0.16.2",
+  "license": "MIT"
+}

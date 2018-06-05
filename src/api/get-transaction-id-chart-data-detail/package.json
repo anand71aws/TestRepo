@@ -1,0 +1,8 @@
+{
+  "name": "get-transaction-id-chart-data-detail",
+  "version": "1.0.0",
+  "description": "",
+  "main": "get-transaction-id-chart-data-detail.js",
+  "author": "kevin.joh.o-brien@hpe.com",
+  "license": "MIT"
+}

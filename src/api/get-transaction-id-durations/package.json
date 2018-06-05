@@ -1,0 +1,8 @@
+{
+  "name": "get-transaction-id-durations",
+  "version": "1.0.0",
+  "description": "",
+  "main": "get-transaction-id-durations.js",
+  "author": "kevin.joh.o-brien@hpe.com",
+  "license": "MIT"
+}

@@ -1,0 +1,8 @@
+{
+  "name": "get-workflow-chart-data-detail",
+  "version": "1.0.0",
+  "description": "",
+  "main": "get-workflow-chart-data-detail.js",
+  "author": "kevin.joh.o-brien@hpe.com",
+  "license": "MIT"
+}

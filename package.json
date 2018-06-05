@@ -1,0 +1,54 @@
+{
+  "name": "entmon-workflow-service",
+  "version": "0.0.1",
+  "description": "The application which holds the backend logic for workflow functionality.",
+  "main": "server.js",
+  "publishConfig": {
+    "registry": "https://npmjs.itcs.hpecorp.net"
+  },
+  "engine-strict": true,
+  "engines": {
+    "node": "^5.11"
+  },
+  "scripts": {
+    "lint": "eslint src",
+    "lint:errors": "eslint src --quiet",
+    "test": "lab --coverage --verbose --timeout 5000",
+    "start": "node server.js",
+    "debug": "node --debug=5858 server.js"
+  },
+  "keywords": [
+    "api",
+    "apis",
+    "integration",
+    "rest",
+    "swagger"
+  ],
+  "author": "Kumaraswamy AV",
+  "addison-template": "0.16.0",
+  "license": "MIT",
+  "dependencies": {
+    "@hpe/addison-engine": "0.x",
+    "console-stamp": "^0.2.5",
+    "dse-driver": "^1.6.0",
+    "joi": "10.x",
+    "sinon": "^4.4.2"
+  },
+  "devDependencies": {
+    "lab": "12.x",
+    "code": "4.x",
+    "eslint": "4.3.0",
+    "eslint-plugin-import": "2.7.0"
+  },
+  "com_hpe": {
+    "eprid": "208564",
+    "ucmdb": {
+      "id": "208564",
+      "type": "eprid",
+      "url": "http//apate.corp.hpe.com"
+    },
+    "native": true,
+    "addison": true,
+    "environment": {}
+  }
+}

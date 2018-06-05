@@ -1,0 +1,8 @@
+{
+  "name": "get-my-workflows",
+  "version": "1.0.0",
+  "description": "",
+  "main": "get-my-workflows.js",
+  "author": "kevin.joh.o-brien@hpe.com",
+  "license": "MIT"
+}
